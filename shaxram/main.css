@@ -1,0 +1,263 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: #141414;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background: #1B1B1B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .left p{
+    color: red;
+}
+header .left .h1{
+    color: white;
+}
+header .left{
+    color: white;
+    display: flex;
+    font-size: 28px;
+}
+header .center{
+    gap: 10px;
+    display: flex;
+}
+header .right{
+    gap: 10px;
+    display: flex;
+}
+header a{
+    text-decoration: none;
+}
+header .center a{
+    color: white;
+    font-size: 12px;
+}
+header .center .a{
+    color: red;
+    font-size: 12px;
+}
+header .right a{
+    color: white;
+    font-size: 12px;
+}
+.container{
+    width: 100%;
+    height: 350px;
+    background: #141414;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.container .left{
+    width: 400px;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+.container .left .top{
+    display: flex;
+    margin-top: 5px;
+    color: white;
+    font-size: 37px;
+    width: 200px;
+}
+.container .left .top .p{
+    color: red;
+}
+.container .left p{
+    color: gray;
+}
+.container .left .lorem{
+    margin-top: 15px;
+}
+.container .left .buttom{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.container .left .buttom p{
+    width: 200px;
+    height: 50px;
+    background:#DA4533;
+    display: flex;
+    text-align: center;
+    border-radius: 100%;
+    color: white;
+    font-size: 14px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.container .left .buttom a{
+    color: red;
+    border-radius: 100%;
+    border: 1px solid red;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin-top: 25px;
+    display: flex;
+    text-decoration: none;
+    font-size: 12px;
+}
+.container .right img{
+    border-radius: 200px;
+} 
+.wrapper {
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    background: #141414;
+    width: 100%;
+    justify-content: center;
+    padding-right: 70px;
+
+}
+.wrapper img{
+    width: 300px;
+}
+.containerr{
+    gap: 15px;
+}
+.containerr .buttom{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+.containerr .top p{
+    width: 500px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.box {
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    background: #1b1b1b;
+    border: 1px solid #DA4533;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.box p{
+    font-size: 12px;
+    color: gray;
+    width: 150px;
+}
+.containerr h2{
+    color: white;
+}
+.containerr p{
+    color: gray;
+}
+.container2 {
+    display: flex;
+    margin-top: 50px;
+    height: 490px;
+    gap: 10px;
+    background: #141414;
+    width: 100%;
+    justify-content: center;
+    padding-right: 70px;
+
+}
+.container2 .rasm{
+    width: 300px;
+}
+.containerr{
+    gap: 15px;
+}
+.containerr .buttom{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+.containerr .top p{
+    width: 500px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.box1 {
+    width: 250px;
+    height: 100px;
+    padding: 30px;
+    background: #1b1b1b;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.box2 {
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #1b1b1b;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.box3 {
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #1b1b1b;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.box4 {
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #1b1b1b;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.box5 {
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #1b1b1b;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.box6 {
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #1b1b1b;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.containerr h2{
+    color: white;
+}
+.containerr p{
+    color: gray;
+}
